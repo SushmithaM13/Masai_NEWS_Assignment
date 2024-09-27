@@ -1,0 +1,85 @@
+#container{
+    width: 100%;
+    height: 600px;
+    margin: auto;
+    font-family: sans-serif;
+    background-color: aliceblue;
+}
+h2{
+    text-align: center;
+}
+#parent{
+    width: 100%;
+    height: 500px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+.news{
+    width: 85%;
+    padding: 20px;
+}
+.box1{
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    align-items: center;
+    border-radius: 10px;
+    padding: 20px 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.box2{
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.box3{
+    width: 300px;
+    height: 400px;
+    margin: auto;
+    border-radius: 10px;
+    padding: 20px 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+.news + p{
+    color: #3872d5;
+    font-weight: bold;
+    margin-top: 25px;
+}
+p:last-child{
+   color: #8d8b90;
+}
+#container > button{
+    width: 120px;
+    padding: 10px;
+    color: red;
+    border: 1px solid red;
+    display: flex;
+    margin-left: 40%;
+    margin-right: 40%;
+}
+#bottom{
+    margin-top: 10px;
+    width: 90%;
+    height: 300px;
+    margin: auto;
+    font-family: sans-serif;
+}
+h1{
+    text-align: center;
+}
+.logo{
+    padding: 10px;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.logo > img{
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 15px;
+}
